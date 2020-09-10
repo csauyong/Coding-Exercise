@@ -2,8 +2,7 @@
 """CodeIT Sums Problem"""
 from itertools import combinations
 nums = [1,2,6,3,17,82,23,234]
-target = 23
-##brute force approach
+target = 3
 def CombinationSums(nums, target):
     ind = []
     all_combinations = []
