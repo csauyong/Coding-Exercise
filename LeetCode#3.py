@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""LeetCode#3.py: find the length of the longest substr without repeating characters"""
+#find the length of the longest substr without repeating characters
 def lengthOfLongestSubstring(s):
     maxLength = 0
     for i in range(len(s)):
